@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Image Search Extension",
+  "version": "0.0.2",
+  "permissions": ["*://*.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": { "48": "Icon PNG.png" }
+}
